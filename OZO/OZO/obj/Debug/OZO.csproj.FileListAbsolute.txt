@@ -1,0 +1,12 @@
+C:\Users\Keail\source\repos\OZO\OZO\bin\Debug\OZO.exe.config
+C:\Users\Keail\source\repos\OZO\OZO\bin\Debug\OZO.exe
+C:\Users\Keail\source\repos\OZO\OZO\bin\Debug\OZO.pdb
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.csprojAssemblyReference.cache
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.Form1.resources
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.Properties.Resources.resources
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.csproj.GenerateResource.cache
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.csproj.CoreCompileInputs.cache
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.exe
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.pdb
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.Form2.resources
+C:\Users\Keail\source\repos\OZO\OZO\obj\Debug\OZO.login.resources
