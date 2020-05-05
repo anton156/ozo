@@ -36,7 +36,11 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.user = new System.Windows.Forms.PictureBox();
+            this.password = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -123,12 +127,37 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // user
+            // 
+            this.user.BackgroundImage = global::OZO.Properties.Resources.user1_64x64;
+            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.user.InitialImage = null;
+            this.user.Location = new System.Drawing.Point(12, 225);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(30, 30);
+            this.user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.user.TabIndex = 7;
+            this.user.TabStop = false;
+            // 
+            // password
+            // 
+            this.password.BackgroundImage = global::OZO.Properties.Resources.pngwave;
+            this.password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.password.Location = new System.Drawing.Point(12, 288);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(30, 29);
+            this.password.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.password.TabIndex = 8;
+            this.password.TabStop = false;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(354, 527);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.user);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
@@ -141,7 +170,10 @@
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,5 +188,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox user;
+        private System.Windows.Forms.PictureBox password;
     }
 }
